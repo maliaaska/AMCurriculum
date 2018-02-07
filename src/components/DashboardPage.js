@@ -1,10 +1,10 @@
 import React from 'react';
+import List from './List';
 
 const DashboardPage = () => (
-  <div className="dashBoardBox">
-    <div className='list'>Column with list of topics and my projects</div>
-    <div>description of a topic of the list </div>
-  
+  <div className="dashboard-box">
+    <List />
+    <div className="project">description of a topic of the list </div>
   </div>
 )
 
