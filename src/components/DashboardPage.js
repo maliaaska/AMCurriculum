@@ -1,10 +1,10 @@
 import React from 'react';
 import List from './List';
-
+import DisplayListItem from './DisplayListItem';
 const DashboardPage = () => (
   <div className="dashboard-box">
     <List />
-    <div className="project">description of a topic of the list </div>
+    <DisplayListItem />
   </div>
 )
 
