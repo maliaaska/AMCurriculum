@@ -1,16 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const List = () => (
   <div className="list">
-    <p>AMProfile</p>
-    <p>Experience</p>
-    <p>ThinkTwice</p>
-    <p>GameDay</p>
-    <p>IndecitionApp</p>
-    <p>ES6 Project</p>
-    <p>React Weather App</p>
-    <p>Static Cat poster Store</p>
+    <Link to="/dashboard/think-twice">AMProfile</Link>
+    
   </div>
 )
 
 export default List;
+
+// <Link>Experience</Link>
+// <Link>ThinkTwice</Link>
+// <Link>GameDay</Link>
+// <Link>IndecitionApp</Link>
+// <Link>ES6 Project</Link>
+// <Link>React Weather App</Link>
+// <Link>Static Cat poster Store</Link>
