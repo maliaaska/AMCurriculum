@@ -1,13 +1,14 @@
 import React from 'react';
 import {Router, Route, Switch, Link, NavLink } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
-import DashboardPage from "../components/DashboardPage";
+import HomePage from "../components/HomePage";
 import NotFoundPage from "../components/NotFoundPage";
 import LoginPage  from '../components/LoginPage';
 import PrivateRoute from './PrivateRoute';
 import PublicRoute from './PublicRoute';
-import ThinkTwice from '../components/ThinkTwice';
-
+import Projects from '../components/Projects';
+import Profile from '../components/Profile';
+import PortfolioListPage from '../components/PortfolioListPage';
 
 export const history = createHistory();  
 
@@ -16,13 +17,15 @@ const AppRouter = () => (
   <div>
     <Switch>
       <PublicRoute path="/" component={LoginPage} exact={true}/>
-      <PrivateRoute path="/dashboard" component={DashboardPage} />
-      <PrivateRoute path="/dashboard/think-twice" component={ThinkTwice} />
+      <PrivateRoute path="/homepage" component={HomePage} exact={true} />
+      <PrivateRoute path="/homepage/profile" component={Profile} exact={true} />
+      <PrivateRoute path="/homepage/projects" component={PortfolioListPage} exact={true} />
+      <PrivateRoute path="/homepage/projects/:id" component={Projects} />
       <Route component={NotFoundPage} />
     </Switch>
   </div>
 
-</Router>
+</Router> 
 );
 
 
