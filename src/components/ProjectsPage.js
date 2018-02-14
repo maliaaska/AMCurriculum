@@ -5,7 +5,6 @@ import LinksComponent from './LinksComponent';
 
 const ProjectsPage = (props) => (
   <div className="component-box">
-    <LinksComponent />
     <Link to="projects-page/1">
       <div>
         <h3>ThinkTwiceApp</h3>

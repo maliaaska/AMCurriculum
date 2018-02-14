@@ -4,7 +4,6 @@ import Footer from './Footer';
 
 const HomePage = () => (
   <div className="component-box">
-    <LinksComponent />
     <h1>Welcome!</h1>
     <Footer  />
   </div>
