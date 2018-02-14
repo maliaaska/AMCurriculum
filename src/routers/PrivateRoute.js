@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Route, Redirect } from 'react-router-dom';
 import Header from '../components/Header';
 import LinksComponent from '../components/LinksComponent';
+import Footer from '../components/Footer';
 
 export const PrivateRoute = ({ 
   isAuthenticated, 
@@ -16,6 +17,7 @@ export const PrivateRoute = ({
         <div className='component-box'>
          <LinksComponent />
          <Component {...props} />
+         <Footer />
         </div>
         
       </div>
