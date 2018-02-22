@@ -27,7 +27,8 @@ const ProjectsPage = (props) => (
           <img src="" alt="IndecisionAppImage"/>
         </div>
         <p>
-          description of IndecisionApp
+         IndecisionApp has been built with React.js.
+         It is a simple app that helps you to make a decision in case you are not sure what to do. 
         </p>
       </div>
     </Link>
