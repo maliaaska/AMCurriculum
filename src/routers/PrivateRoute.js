@@ -19,7 +19,6 @@ export const PrivateRoute = ({
          <Component {...props} />
          <Footer />
         </div>
-        
       </div>
     ) : (
       <Redirect to="/" />
