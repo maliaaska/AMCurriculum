@@ -15,7 +15,6 @@ const ProjectsPage = (props) => (
         <p>
           ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
           App allows you to Log in with you Gmail what creates your individual, unique account.
-          
         </p>
       </div>
     </Link>
@@ -32,15 +31,14 @@ const ProjectsPage = (props) => (
         </p>
       </div>
     </Link>
-
     <Link to="projects-page/3">
       <div>
-        <h3>ThinkTwiceApp</h3>
+        <h3>WeatherApp</h3>
         <div>
           <img src="" alt="WeatherApp"/>
         </div>
         <p>
-          description of the WeatherApp
+          That is a simple weather forecast app what allows you to take a look what weather are going to bring you upcomings days
         </p>
       </div>
     </Link>
@@ -51,11 +49,10 @@ const ProjectsPage = (props) => (
           <img src="" alt="Cat Poster Store"/>
         </div>
         <p>
-          description of the Cat Poster Store
+          The "Cat Poster Store" is a e-store where you can choose your favorite postcard with a Cat. When you click a button popup a random text in the viewChild!
         </p>
       </div>
   </Link>
-    <p>This page is for the item with the id of {props.match.params.id}</p>
   </div>
 );
 
