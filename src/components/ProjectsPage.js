@@ -5,6 +5,7 @@ import LinksComponent from './LinksComponent';
 
 const ProjectsPage = (props) => (
   <div className="component-box">
+    <h1>These are my projects i have made. Do not hesitate to take a look and leave a comment!</h1>
     <Link to="projects-page/1">
       <div>
         <h3>ThinkTwiceApp</h3>
@@ -12,7 +13,9 @@ const ProjectsPage = (props) => (
           <img src="" alt="ThinkTwiceImg"/>
         </div>
         <p>
-          description of Think Twice app
+          ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
+          App allows you to Log in with you Gmail what creates your individual, unique account.
+          
         </p>
       </div>
     </Link>
