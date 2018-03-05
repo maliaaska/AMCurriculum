@@ -42,7 +42,7 @@ const ProjectsPage = (props) => (
         </p>
       </div>
     </Link>
-    <Link to="projects-page/4">
+    <Link to="https://cat-poster-store.herokuapp.com/">
       <div>
         <h3>Cat Poster Store</h3>
         <div className='app-picture'>
