@@ -13,7 +13,7 @@
     "heroku-postbuild": "yarn run build:prod"
   },
   "engines": {
-    "node": "8.9.4"
+    "node": "8.6.0"
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -27,13 +27,14 @@
     "babel-polyfill": "6.26.0",
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
-    "cross-env": "^5.0.5",
+    "cross-env": "5.0.5",
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "firebase": "4.2.0",
     "history": "4.7.2",
     "moment": "2.18.1",
+    "node": "8.6.0",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
     "numeral": "2.0.6",
