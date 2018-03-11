@@ -23,6 +23,12 @@ tags
 
 # NPM packages folder.
 node_modules/
+public/bundle.js
+public/bundle.js.map  
+public/styles.css
+public/styles.css.map
+
+
 
 # Brunch folder for temporary files.
 tmp/
