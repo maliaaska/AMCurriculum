@@ -10,6 +10,7 @@ if (process.env.NODE_ENV === 'test') {
 } else if (process.env.NODE_ENV === 'development') {
   require('dotenv').config({ path: '.env.development' });
 }
+console.log(process.env.NODE_ENV);
 
 module.exports = (env) => {
   const isProduction = env === 'production';
