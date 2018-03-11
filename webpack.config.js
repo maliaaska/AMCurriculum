@@ -4,7 +4,9 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-console.log(process.env.NODE_ENV, 'proces ENV')
+console.log(process.env.NODE_ENV, 'proces ENV');
+
+
 if (process.env.NODE_ENV === 'test') {
   require('dotenv').config({ path: '.env.test' });
 } else if (process.env.NODE_ENV === 'development') {
@@ -15,6 +17,8 @@ console.log(process.env.NODE_ENV);
 module.exports = (env) => {
   const isProduction = env === 'production';
   const CSSExtract = new ExtractTextPlugin('styles.css');
+  
+  
   return {
     entry: ['babel-polyfill','./src/app.js'],
     output: {
@@ -56,7 +60,6 @@ module.exports = (env) => {
         'process.env.FIREBASE_PROJECT_ID': JSON.stringify(process.env.FIREBASE_PROJECT_ID),
         'process.env.FIREBASE_STORAGE_BUCKET': JSON.stringify(process.env.FIREBASE_STORAGE_BUCKET),
         'process.env.FIREBASE_MESSAGING_SENDER_ID': JSON.stringify(process.env.FIREBASE_MESSAGING_SENDER_ID)
-        
       })
     ],
     devtool: isProduction ? 'source-map' : 'inline-source-map',
