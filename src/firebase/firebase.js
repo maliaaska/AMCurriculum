@@ -11,9 +11,6 @@ const config = {
 
 firebase.initializeApp(config);
 
-console.log(config) ;
-console.log('process.env.FIREBASE_DATABASE_URL',process.env.APP_KEY);
-
 const database = firebase.database();
 const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 export { firebase, googleAuthProvider, database as default }
