@@ -6,7 +6,7 @@ import LinksComponent from './LinksComponent';
 const ProjectsPage = (props) => (
   <div className="component-box">
     <h1>These are my projects i have made. Do not hesitate to take a look and leave a comment!</h1>
-    <Link to="projects-page/1">
+    <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank'>
       <div>
         <h3>ThinkTwiceApp</h3>
         <div className='app-picture'>
@@ -17,9 +17,9 @@ const ProjectsPage = (props) => (
           App allows you to Log in with you Gmail what creates your individual, unique account.
         </p>
       </div>
-    </Link>
+    </a>
 
-    <Link to="projects-page/2">
+    <a href="https://indecision-app-mil.herokuapp.com/" target='_blank'>
       <div>
         <h3>IndecisionApp</h3>
         <div className='app-picture'>
@@ -30,19 +30,11 @@ const ProjectsPage = (props) => (
          It is a simple app that helps you to make a decision in case you are not sure what to do. 
         </p>
       </div>
-    </Link>
-    <Link to="projects-page/3">
-      <div>
-        <h3>WeatherApp</h3>
-        <div className='app-picture'>
-          <img src="/images/weather.jpg" alt="WeatherApp"/>
-        </div>
-        <p>
-          That is a simple weather forecast app what allows you to take a look what weather are going to bring you upcomings days
-        </p>
-      </div>
-    </Link>
-    <Link to="https://cat-poster-store.herokuapp.com/">
+    </a>
+
+    
+
+    <a href="https://cat-poster-store.herokuapp.com/" target="_blank" >
       <div>
         <h3>Cat Poster Store</h3>
         <div className='app-picture'>
@@ -52,10 +44,21 @@ const ProjectsPage = (props) => (
           The "Cat Poster Store" is a e-store where you can choose your favorite postcard with a Cat. When you click a button popup a random text in the viewChild!
         </p>
       </div>
-  </Link>
+    </a>
   </div>
 );
 
 export default ProjectsPage;
 
 
+// <Link to="projects-page/3">
+//       <div>
+//         <h3>WeatherApp</h3>
+//         <div className='app-picture'>
+//           <img src="/images/weather.jpg" alt="WeatherApp"/>
+//         </div>
+//         <p>
+//           That is a simple weather forecast app what allows you to take a look what weather are going to bring you upcomings days
+//         </p>
+//       </div>
+//     </Link>
