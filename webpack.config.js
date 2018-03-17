@@ -4,7 +4,6 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-console.log(process.env.NODE_ENV, 'proces ENV');
 
 
 if (process.env.NODE_ENV === 'test') {
@@ -12,7 +11,6 @@ if (process.env.NODE_ENV === 'test') {
 } else if (process.env.NODE_ENV === 'development') {
   require('dotenv').config({ path: '.env.development' });
 }
-console.log(process.env.NODE_ENV);
 
 module.exports = (env) => {
   const isProduction = env === 'production';
