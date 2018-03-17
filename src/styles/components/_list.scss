@@ -3,8 +3,9 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-
-  
+}
+.list div {
+  margin: $l-size;
 }
 
 .list-header {

@@ -11,7 +11,13 @@
 .header__title {
   color: white;
   text-decoration: none;
-  h1 {
+  p {
     margin: 0;
+    font-size: $font-size-x-small;
+  }
+  @media(min-width: $desktop-breakpoint) {
+      p {
+        font-size: $font-size-large;
+      }
   }
 }
