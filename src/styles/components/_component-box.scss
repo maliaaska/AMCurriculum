@@ -1,4 +1,13 @@
 .component-box {
   display: flex;
+  flex-direction: column;
   height: 80%;
+  @media(max-width: $desktop-breakpoint) {
+    p {
+    };
+  };
+  h1 {
+    text-align: center; 
+  }
+
 }

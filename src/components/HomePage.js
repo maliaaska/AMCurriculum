@@ -5,7 +5,7 @@ import Footer from './Footer';
 const HomePage = () => (
   <div className="component-box">
     <h1>Welcome!</h1>
-    <p> 
+    <p className="home-page-paragraph"> 
       That's my Resume built with React.js.
       The Reason why I did it is simple- to practice how to build 
       websites with React.js. 
