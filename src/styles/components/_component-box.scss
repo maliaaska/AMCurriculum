@@ -1,13 +1,12 @@
 .component-box {
   display: flex;
+  margin: auto;
   flex-direction: column;
-  height: 80%;
-  @media(max-width: $desktop-breakpoint) {
+  font-size: font-size-x-small;
+  @media(min-width: $desktop-breakpoint) {
     p {
-    };
+      text-align: center;
+    }
   };
-  h1 {
-    text-align: center; 
-  }
-
+  padding: $xs-size;
 }

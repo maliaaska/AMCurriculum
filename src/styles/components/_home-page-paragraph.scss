@@ -2,7 +2,6 @@
   display: flex;
   padding: $xs-size;
   text-align: center;
-
   @media(min-width: $desktop-breakpoint) {
     max-width: 50%;
     align-self: center;

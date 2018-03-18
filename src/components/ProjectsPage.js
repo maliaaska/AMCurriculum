@@ -5,7 +5,7 @@ import LinksComponent from './LinksComponent';
 
 const ProjectsPage = (props) => (
   <div className="component-box">
-    <h1>These are my projects i have made. Do not hesitate to take a look and leave a comment!</h1>
+    <p>These are my projects i have made. Do not hesitate to take a look and leave a comment!</p>
     <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank'>
       <div>
         <h3>ThinkTwiceApp</h3>
