@@ -1,6 +1,5 @@
 .header {
   background: $dark-blue;
-
 }
 .header__content {
   align-items: center;
@@ -13,7 +12,7 @@
   text-decoration: none;
   p {
     margin: 0;
-    font-size: $font-size-x-small;
+    font-size: $font-size-small;
   }
   @media(min-width: $desktop-breakpoint) {
       p {
