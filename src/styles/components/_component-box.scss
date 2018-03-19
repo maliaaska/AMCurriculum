@@ -9,4 +9,8 @@
     }
   };
   padding: $xs-size;
+  h1 {
+    display: flex;
+    align-self: center;
+  }
 }
