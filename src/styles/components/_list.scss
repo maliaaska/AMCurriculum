@@ -14,14 +14,15 @@
 }
 .list div  {
   margin-right: $l-size;
-  p {
-    text-decoration: none !important;  
-  }
+  textDecoration: none !important;  
 }
 .list:nth-child(0)  {
   margin-right: $l-size;  
 }
-
+.nav-link {
+  text-decoration: none;
+  border: none;
+}
 
 .list-header {
   background: $off-white;
