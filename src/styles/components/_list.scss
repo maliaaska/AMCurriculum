@@ -14,7 +14,8 @@
 }
 .list div  {
   margin-right: $l-size;
-  textDecoration: none !important;  
+  flex: 1;
+  text-align: center; 
 }
 .list:nth-child(0)  {
   margin-right: $l-size;  
