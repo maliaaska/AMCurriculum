@@ -1,8 +1,8 @@
 .component-box {
   display: flex;
-  margin: auto;
   flex-direction: column;
   font-size: font-size-x-small;
+  min-height: 80%;
   @media(min-width: $desktop-breakpoint) {
     p {
       text-align: center;
@@ -13,4 +13,5 @@
     display: flex;
     align-self: center;
   }
+
 }

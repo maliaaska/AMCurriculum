@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LinksComponent from './LinksComponent';
-
+import Footer from './Footer';
 
 const ProjectsPage = (props) => (
   <div className="component-box">
@@ -45,6 +45,7 @@ const ProjectsPage = (props) => (
         </p>
       </div>
     </a>
+    <Footer />  
   </div>
 );
 
