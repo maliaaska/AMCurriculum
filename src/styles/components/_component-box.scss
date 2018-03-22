@@ -3,15 +3,31 @@
   flex-direction: column;
   font-size: font-size-x-small;
   min-height: 80%;
+  height: 100vh;
   @media(min-width: $desktop-breakpoint) {
     p {
       text-align: center;
     }
   };
-  padding: $xs-size;
   h1 {
     display: flex;
     align-self: center;
   }
+}
+
+.component-box-1 {
+  background: url('/images/warsaw-vistula.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  background-position: center;
+  color: white; 
+  flex: 1 1 auto;
+  width: 100vw;
+}
+
+.box-2 {
+  flex: 2 1 auto;
 
 }

@@ -8,7 +8,6 @@ export const login = (uid) => ({
 
 export const startLogin = () => {
   return () => {
-    console.log('button has been clicked');
     return firebase.auth().signInWithPopup(googleAuthProvider);
 
   };
