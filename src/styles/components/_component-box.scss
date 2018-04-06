@@ -25,9 +25,17 @@
   color: white; 
   flex: 1 1 auto;
   width: 100vw;
+  @media(max-width: $desktop-breakpoint) {
+    min-height: 20%;
+    max-height: 50%;
+  }
+  
+
+
+
 }
 
 .box-2 {
-  flex: 2 1 auto;
+  // flex: 1 1 auto;
 
 }

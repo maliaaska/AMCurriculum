@@ -11,7 +11,7 @@ const ProjectsPage = (props) => (
     </div>
     <div className='component-box-2'>
       <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank'>
-        <div>
+        <div className='project-box'>
           <h3>ThinkTwiceApp</h3>
           <div className='app-picture'>
             <img src="/images/money.png" alt="ThinkTwiceImg"/>
@@ -24,7 +24,7 @@ const ProjectsPage = (props) => (
       </a>
 
       <a href="https://indecision-app-mil.herokuapp.com/" target='_blank'>
-        <div>
+        <div className='project-box'>
           <h3>IndecisionApp</h3>
           <div className='app-picture'>
             <img src="/images/light.png" alt="IndecisionAppImage"/>
@@ -36,7 +36,7 @@ const ProjectsPage = (props) => (
         </div>
       </a>
       <a href="https://cat-poster-store.herokuapp.com/" target="_blank" >
-        <div>
+        <div className='project-box'>
           <h3>Cat Poster Store</h3>
           <div className='app-picture'>
             <img src="/images/cat.jpg" alt="Cat Poster Store"/>
