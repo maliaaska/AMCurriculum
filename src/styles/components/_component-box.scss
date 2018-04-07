@@ -18,12 +18,13 @@
 .component-box-1 {
   background: url('/images/warsaw-vistula.jpg');
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
   background-position: center;
   color: white; 
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
+  justify-content: start;
+  padding: 0 5%;
   width: 100vw;
   @media(max-width: $desktop-breakpoint) {
     min-height: 20%;
@@ -36,6 +37,6 @@
 }
 
 .box-2 {
-  // flex: 1 1 auto;
+  
 
 }
