@@ -12,15 +12,15 @@ const ProjectsPage = (props) => (
     <div className='component-box-2'>
       <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank'>
         <div className='project-box'>
-          <div className='app-picture'>
-            <img src="/images/money.png" alt="ThinkTwiceImg"/>
-          </div>
-          <div>
+          <div className='app-description'>
             <h5>ThinkTwiceApp</h5>
             <p>
               ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
               App allows you to Log in with you Gmail what creates your individual, unique account.
             </p>
+          </div>
+          <div className='app-picture'>
+            <img src="/images/money.png" alt="ThinkTwiceImg"/>
           </div>
         </div>  
       </a>

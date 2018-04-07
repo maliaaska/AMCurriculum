@@ -1,9 +1,30 @@
+.app-description {
+  max-width: 60vw;
+  h5 {
+    margin: 0;  
+  }
+  p {
+    margin: 0;
+    font-size: $font-size-x-small;
+  }
+}
+.app-picture {
+    height: $picture-size-small;
+    min-height: 10vh;
+    min-width: 10vw;
+    width: $picture-size-small;
+}
 
 .project-box{
   color: black;
+  margin: 0 auto; 
   padding: 5%;
+  display: flex;
 }
 
 a {
   text-decoration: none !important;
+  div {
+
+  }
 }
