@@ -19,7 +19,6 @@ const AppRouter = () => (
       <PrivateRoute path="/homepage" component={HomePage} exact={true} />
       <PrivateRoute path="/homepage/profile-page" component={ProfilePage}  />
       <PrivateRoute path="/homepage/projects-page" component={ProjectsPage}  />
-      
       <Route component={NotFoundPage} />
     </Switch>
   </div>

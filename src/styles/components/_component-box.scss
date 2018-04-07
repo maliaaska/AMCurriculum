@@ -6,12 +6,15 @@
   height: 100vh;
   @media(min-width: $desktop-breakpoint) {
     p {
-      text-align: center;
+      margin: 0 auto;
+      text-align: justify;
+      text-justify: auto;
     }
   };
-  h1 {
+  h2 {
     display: flex;
     align-self: center;
+    margin: 0;
   }
 }
 
@@ -30,13 +33,15 @@
     min-height: 20%;
     max-height: 50%;
   }
-  
-
-
-
 }
 
-.box-2 {
-  
-
+.component-box-1-a {
+  h3 {
+    margin: 0;
+  }
+  p {
+    font-size: $font-size-small;
+    margin: 0;
+  }
+  padding: 0 10%;
 }
