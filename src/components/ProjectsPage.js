@@ -26,25 +26,29 @@ const ProjectsPage = (props) => (
       </a>
       <a href="https://indecision-app-mil.herokuapp.com/" target='_blank'>
         <div className='project-box'>
-          <h3>IndecisionApp</h3>
+          <div className='app-description'>
+            <h5>IndecisionApp</h5>           
+            <p>
+              IndecisionApp has been built with React.js.
+              It is a simple app that helps you to make a decision in case you are not sure what to do. 
+            </p>
+          </div>
           <div className='app-picture'>
             <img src="/images/light.png" alt="IndecisionAppImage"/>
-          </div>
-          <p>
-          IndecisionApp has been built with React.js.
-          It is a simple app that helps you to make a decision in case you are not sure what to do. 
-          </p>
+          </div>          
         </div>
       </a>
       <a href="https://cat-poster-store.herokuapp.com/" target="_blank" >
         <div className='project-box'>
-          <h3>Cat Poster Store</h3>
+          <div className='app-description'>
+            <h5>Cat Poster Store</h5>           
+            <p>
+              The "Cat Poster Store" is a e-store where you can choose your favorite postcard with a Cat. When you click a button popup a random text in the viewChild!
+            </p>
+          </div>
           <div className='app-picture'>
             <img src="/images/cat.jpg" alt="Cat Poster Store"/>
           </div>
-          <p>
-            The "Cat Poster Store" is a e-store where you can choose your favorite postcard with a Cat. When you click a button popup a random text in the viewChild!
-          </p>
         </div>
       </a>
     </div>
