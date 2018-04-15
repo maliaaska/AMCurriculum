@@ -19,13 +19,22 @@ const ProfilePage = () => (
     </div>
     <div className='component-box-2'>
       <h4>Contact details</h4>
-      <p>
-        e-mail: asmilewski@gmail.com
-      </p>
+      <div className="link-image">
+        <a href="mailto:asmilewski@gmail.com" target='_blank'>
+          <img src="/images/gmail.png" alt="Gmail_logo"/>
+          <span>asmilewski@gmail.com</span>
+        </a>
+      </div>
       <div className="link-image">
         <a href="https://www.linkedin.com/in/arkadiusz-milewski-48977155/" target='_blank'>
           <img src="/images/linkedin.png" alt="linkedIn_logo"/>
           <span>My LinkedIn profile</span>
+        </a>
+      </div>
+      <div className="link-image">
+        <a href="https://github.com/maliaaska" target='_blank'>
+          <img src="/images/github.png" alt="GitHub_logo"/>
+          <span>My GitHub profile</span>
         </a>
       </div>
     </div>
@@ -33,8 +42,3 @@ const ProfilePage = () => (
 );
 
 export default ProfilePage;
-
-
-// <p>
-//         GitHub: https://github.com/maliaaska
-//       </p>
