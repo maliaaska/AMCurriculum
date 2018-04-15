@@ -47,5 +47,37 @@
 }
 
 .component-box-2 {
-  color: $off-grey;
+  color: $grey;
+  display: flex;
+  flex-direction: column;
+  h4 {
+    margin: 0;
+  }
+  padding: 10% 15%;
+}
+.component-box-2 div {
+  display: flex;
+  flex-direction: row;
+}
+.link-image {
+  max-width: 100%;
+  max-height: 4vh;
+}
+.link-image a {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  text-decoration: none !important;
+}
+
+.link-image img {
+  height: 100%;
+  width: 10%;
+}
+.component-box-2 span {
+  color: $grey;
+  padding-left: 2.8rem;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none !important;
 }

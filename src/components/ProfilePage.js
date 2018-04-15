@@ -22,14 +22,19 @@ const ProfilePage = () => (
       <p>
         e-mail: asmilewski@gmail.com
       </p>
-      <p>
-        linkedIn: https://www.linkedin.com/in/arkadiusz-milewski-48977155/
-      </p>
-      <p>
-        GitHub: https://github.com/maliaaska
-      </p>
+      <div className="link-image">
+        <a href="https://www.linkedin.com/in/arkadiusz-milewski-48977155/" target='_blank'>
+          <img src="/images/linkedin.png" alt="linkedIn_logo"/>
+          <span>My LinkedIn profile</span>
+        </a>
+      </div>
     </div>
   </div>
 );
 
 export default ProfilePage;
+
+
+// <p>
+//         GitHub: https://github.com/maliaaska
+//       </p>
