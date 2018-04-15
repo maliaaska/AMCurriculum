@@ -7,16 +7,18 @@
   @media(min-width: $desktop-breakpoint) {
     p {
       margin: 0 auto;
+      max-width: 70%;
       text-align: justify;
       text-justify: auto;
     }
   };
   h2 {
     display: flex;
-    align-self: center;
-    margin: 0;
+    align-self: flex-start;
+    margin: 0 0 0 4vw;
   }
 }
+
 
 .component-box-1 {
   background: url('/images/warsaw-vistula.jpg');
@@ -32,7 +34,19 @@
   @media(max-width: $desktop-breakpoint) {
     min-height: 20%;
     max-height: 50%;
+    p {
+      margin: 0 auto;
+      max-width: 90%;
+      text-align: justify;
+      
+    }
   }
+}
+.link {
+  p {
+    text-align: justify;
+  }
+  
 }
 
 .component-box-1-a {

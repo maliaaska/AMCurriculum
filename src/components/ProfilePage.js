@@ -7,7 +7,7 @@ const ProfilePage = () => (
       <LinksComponent />
       <div className='component-box-1-a'>
         <h3>My short story</h3>
-        <p>
+        <p className='page-description'>
           Arkadiusz Szymon Milewski and was born 12 of May 1990 Warsaw, Poland.
           Currently lives in Amsterdam, The Netherlands.
           Born Traveller and Sportsman, since 2017 pssionated about programming.
@@ -42,3 +42,4 @@ const ProfilePage = () => (
 );
 
 export default ProfilePage;
+  
