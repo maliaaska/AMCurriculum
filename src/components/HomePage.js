@@ -7,14 +7,16 @@ const HomePage = () => (
   <div className="component-box">
     <div className='component-box-1'>
       <LinksComponent />
-      <h2>Welcome!</h2>
-      <p className='page-description'> 
-        That's my Resume built with React.js.
-        The Reason why I did it is simple- to practice how to build 
-        websites with React.js. 
-        I enjoyed a lot so far working with this amazing framework. 
-        In a projects section you can find some projects I have made lastly.
-      </p>
+      <div className='introduction'>
+        <h2>Welcome!</h2>
+        <p className='page-description'> 
+          That's my Resume built with React.js.
+          The Reason why I did it is simple- to practice how to build 
+          websites with React.js. 
+          I enjoyed a lot so far working with this amazing framework. 
+          In a projects section you can find some projects I have made lastly.
+        </p>
+      </div>
     </div>
     <div className='component-box-2'>
       <p>This is box 2</p>
