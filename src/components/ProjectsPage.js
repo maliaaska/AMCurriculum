@@ -20,7 +20,7 @@ const ProjectsPage = (props) => (
             </p>
           </div>
           <div className='app-picture'>
-            <img src="/images/money.png" alt="ThinkTwiceImg"/>
+            <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
           </div>
         </div>  
       </a>
