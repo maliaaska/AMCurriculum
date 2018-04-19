@@ -10,7 +10,7 @@ const ProjectsPage = (props) => (
       <p className='page-description'>These are my projects i have made. Do not hesitate to take a look and leave a comment!</p>
     </div>
     <div className='component-box-2-project'>
-      <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank'>
+      <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>
             <h5>ThinkTwiceApp</h5>
@@ -24,7 +24,7 @@ const ProjectsPage = (props) => (
           </div>
         </div>  
       </a>
-      <a href="https://indecision-app-mil.herokuapp.com/" target='_blank'>
+      <a href="https://indecision-app-mil.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>
             <h5>IndecisionApp</h5>           
@@ -38,7 +38,7 @@ const ProjectsPage = (props) => (
           </div>          
         </div>
       </a>
-      <a href="https://cat-poster-store.herokuapp.com/" target="_blank" >
+      <a href="https://cat-poster-store.herokuapp.com/" target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>
             <h5>Cat Poster Store</h5>           
