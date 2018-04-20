@@ -1,3 +1,21 @@
+$defaultDuration: .3s;
+
+
+@mixin hideTapHighlightColor() {
+	//Prevent highlight colour when element is tapped
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@mixin hardwareAccel() {
+	//Improve performance on mobile/tablet devices
+	transform: translateZ(0);
+}
+
+@mixin improveAntiAlias() {
+	//Improve aliasing on mobile/tablet devices
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -6,14 +24,29 @@
   bottom: 0;
   left: 0;
   padding: 1rem;
+  padding-top: 0;
   background-color: #efefef;
   align-content: center;
-  max-width: 100vw;
+  max-width: 150vw;
   
   &:hover {
     box-shadow: 0 0 2rem gray;
   }
   flex: 0 1 auto;
+}
+
+.grow {
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+
+	@include hideTapHighlightColor();
+	@include hardwareAccel();
+	@include improveAntiAlias();
+
+	&:hover {
+		transform: scale(1.5);
+	}
 }
 
 .tech-picture {
