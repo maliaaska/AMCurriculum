@@ -1,6 +1,7 @@
 
 a {
   text-decoration: none !important;
+  width: 100%;
 }
 
 .app-description {
@@ -25,16 +26,17 @@ a {
 
 .project-box{
   position: relative;
+  border-bottom: 0.1rem solid $off-purple;
   color: $off-grey;
   font-weight: 400;
   margin: 0 auto; 
   padding: 5%;
   display: flex;
-  width: 90%;
   &:hover {
     animation-name: wobble-horizontal;
+  }
 }
-}
+
 
 @mixin hideTapHighlightColor() {
 	//Prevent highlight colour when element is tapped
