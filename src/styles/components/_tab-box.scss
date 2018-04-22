@@ -9,6 +9,9 @@
   padding: $s-size 0;
   min-height: none;
   max-height: 10vh;
+  p {
+    margin: 0;
+  }
 
   @media(max-width: $desktop-breakpoint) {
     width: 100%;

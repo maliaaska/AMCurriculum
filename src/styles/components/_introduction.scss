@@ -1,7 +1,23 @@
 .introduction {
   padding-left: 5vw;
   @media(min-width: $desktop-breakpoint) {
+    padding: 5vh 0;
+    margin: 0;
     align-self: center;
-    min-width: 50%;
+    max-width: 50%;
+    
   }
+}
+
+.introduction h2 {
+  margin: 0;
+}
+
+.introduction p {
+  margin: 0;
+  width: 100%;
+}
+
+.page-description {
+  width: 100%;
 }
