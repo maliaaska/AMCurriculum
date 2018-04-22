@@ -1,6 +1,6 @@
 .content-container {
   margin: 0 auto;
-  padding: 0 $m-size;
+  padding: $m-size $m-size 0;
   max-width: 50%;
   flex: 1 1 auto;
   @media(max-width: $desktop-breakpoint) {

@@ -1,11 +1,14 @@
-.list {
+.tab-box {
   display: flex;
   flex-direction: row;  
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: space-between;
-  max-width: 50%;
-  padding: 0 1.6rem;
+  align-self: center;
+  min-width: 50%;
+  padding: $s-size 0;
+  min-height: none;
+  max-height: 10vh;
 
   @media(max-width: $desktop-breakpoint) {
     width: 100%;
@@ -18,19 +21,14 @@
     }
   }
 }
-.tab-box div  {  
-}
-.tab-box div p {
-  text-align: center;
-  margin: 0;
-}
+
 
 .nav-link {
   text-decoration: none;
   border: none;
   border: none;
   color: white;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 1;
   font-size: $font-size-medium;
   text-decoration: none;  

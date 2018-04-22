@@ -1,3 +1,7 @@
 .introduction {
   padding-left: 5vw;
+  @media(min-width: $desktop-breakpoint) {
+    align-self: center;
+    min-width: 50%;
+  }
 }
