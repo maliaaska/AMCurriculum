@@ -1,4 +1,4 @@
-.introduction {
+.description-box {
   padding-left: 5vw;
   @media(min-width: $desktop-breakpoint) {
     padding: 5vh 0;
@@ -9,13 +9,14 @@
   }
 }
 
-.introduction h2 {
+.description-box h2 {
   margin: 0;
 }
 
-.introduction p {
+.description-box p {
   margin: 0;
   width: 100%;
+  font-weight: 600;
 }
 
 .page-description {

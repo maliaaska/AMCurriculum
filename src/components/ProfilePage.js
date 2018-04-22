@@ -5,7 +5,7 @@ const ProfilePage = () => (
   <div className="component-box">
     <div className='component-box-1'>
       <TabsComponent />
-      <div className='component-box-1-a'>
+      <div className='description-box'>
         <h3>My short story</h3>
         <p className='page-description'>
           Arkadiusz Szymon Milewski and was born 12 of May 1990 Warsaw, Poland.
@@ -16,7 +16,7 @@ const ProfilePage = () => (
           Working as a freelancer and trying to enrich his service in Web Development industry.
         </p>
       </div>
-    </div>
+      </div>
     <div className='component-box-2'>
       <h4>Contact details</h4>
       <div className="link-image">

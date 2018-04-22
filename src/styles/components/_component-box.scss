@@ -29,6 +29,9 @@
   flex: 1 1 auto;
   justify-content: start;
   width: 100vw;
+  p {
+    min-height: 0;
+  }
   @media(max-width: $desktop-breakpoint) {
     min-height: 20%;
     max-height: 50%;

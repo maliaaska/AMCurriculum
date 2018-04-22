@@ -7,7 +7,7 @@ const HomePage = () => (
   <div className="component-box">
     <div className='component-box-1'>
       <TabsComponent />
-      <div className='introduction'>
+      <div className='description-box'>
         <h2>Welcome!</h2>
         <p className='page-description'> 
           That's my Resume built with React.js.
