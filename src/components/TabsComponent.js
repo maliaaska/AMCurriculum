@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const LinksComponent = (props) => (
+const TabsComponent = (props) => (
   <div className='tab-box'>
   <div className="content-container">
     <div><NavLink className='nav-link' to="/homepage" activeClassName="is-active"><p>Home</p></NavLink></div>
@@ -12,4 +12,4 @@ const LinksComponent = (props) => (
   </div>
 );
 
-export default LinksComponent;
+export default TabsComponent;

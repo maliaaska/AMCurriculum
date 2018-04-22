@@ -1,10 +1,10 @@
 import React from 'react';
-import LinksComponent from "./LinksComponent";
+import TabsComponent from "./TabsComponent";
 
 const ProfilePage = () => (
   <div className="component-box">
     <div className='component-box-1'>
-      <LinksComponent />
+      <TabsComponent />
       <div className='component-box-1-a'>
         <h3>My short story</h3>
         <p className='page-description'>

@@ -1,12 +1,12 @@
 import React from 'react';
-import LinksComponent from './LinksComponent';
+import TabsComponent from './TabsComponent';
 import Footer from './Footer';
 
 
 const HomePage = () => (
   <div className="component-box">
     <div className='component-box-1'>
-      <LinksComponent />
+      <TabsComponent />
       <div className='introduction'>
         <h2>Welcome!</h2>
         <p className='page-description'> 
