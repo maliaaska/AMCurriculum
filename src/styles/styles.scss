@@ -2,6 +2,8 @@
 @import './base/base';
 @import './components/box-layout';
 @import './components/button';
+@import './components/component-box';
+@import './components/content-container';
 @import './components/header';  
 @import './components/page-header';
 @import './components/input-group';
@@ -9,9 +11,8 @@
 @import './components/introduction';
 @import './components/form';
 @import './components/visibility';
-@import './components/list';
+@import './components/tab-box';
 @import './components/loader';
-@import './components/component-box';
 @import './components/footer';
 @import './components/app-picture';
 @import './components/homepage-main';

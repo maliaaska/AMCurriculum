@@ -1,0 +1,49 @@
+.list {
+  display: flex;
+  flex-direction: row;  
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: space-between;
+  max-width: 50%;
+  padding: 0 1.6rem;
+
+  @media(max-width: $desktop-breakpoint) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    p {
+      font-size: 1,1  rem;
+      margin: 0;
+    }
+  }
+}
+.tab-box div  {  
+}
+.tab-box div p {
+  text-align: center;
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  border: none;
+  border: none;
+  color: white;
+  font-weight: 300;
+  line-height: 1;
+  font-size: $font-size-medium;
+  text-decoration: none;  
+  @media(min-width: $desktop-breakpoint) {
+      font-size: $font-size-large;
+    }
+}
+
+.tab-box-header {
+  background: $off-white;
+  border: 1px solid darken($off-white, 7%);
+  color: $grey;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size $m-size;
+}

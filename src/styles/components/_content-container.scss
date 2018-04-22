@@ -1,0 +1,18 @@
+.content-container {
+  margin: 0 auto;
+  padding: 0 $m-size;
+  max-width: 50%;
+  flex: 1 1 auto;
+  @media(max-width: $desktop-breakpoint) {
+    max-width: 80%;
+  }
+}
+
+.content-container-a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+
+}
