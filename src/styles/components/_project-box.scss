@@ -2,6 +2,7 @@
 a {
   text-decoration: none !important;
   width: 100%;
+  
 }
 
 .app-description {
@@ -34,6 +35,10 @@ a {
   display: flex;
   &:hover {
     animation-name: wobble-horizontal;
+  }
+  @media(min-width: $desktop-breakpoint) {
+    width:70%;
+    background: white;
   }
 }
 

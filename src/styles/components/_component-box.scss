@@ -63,6 +63,7 @@
 }
 
 .component-box-2 {
+  background: $off-pink;  
   color: $grey;
   display: flex;
   flex-direction: column;
@@ -74,6 +75,9 @@
 .component-box-2 div {
   display: flex;
   flex-direction: row;
+}
+.component-box-2-project {
+  background: $off-pink;
 }
 .link-image {
   border-bottom: 1px solid $off-purple ;
