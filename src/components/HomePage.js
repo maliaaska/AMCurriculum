@@ -19,7 +19,9 @@ const HomePage = () => (
       </div>
     </div>
     <div className='component-box-2'>
-      <p>This is box 2</p>
+      <div className='component-box-2-project'>
+        <p>This is box 2</p>
+      </div>
     </div>
   </div>
 );

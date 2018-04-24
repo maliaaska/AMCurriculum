@@ -2,6 +2,8 @@
 a {
   text-decoration: none !important;
   width: 100%;
+  margin-top: $s-size;
+   
   
 }
 
@@ -26,8 +28,9 @@ a {
 }
 
 .project-box{
+  border: $off-purple solid 0.1rem;
+  border-radius: 0.7rem;
   position: relative;
-  border-bottom: 0.1rem solid $off-purple;
   color: $off-grey;
   font-weight: 400;
   margin: 0 auto; 
@@ -37,7 +40,7 @@ a {
     animation-name: wobble-horizontal;
   }
   @media(min-width: $desktop-breakpoint) {
-    width:70%;
+    width:60%;
     background: white;
   }
 }

@@ -4,8 +4,7 @@
   font-size: font-size-x-small;
   min-height: 80%;
   @media(min-width: $desktop-breakpoint) {
-    p {
-      min-height: 20vh;
+    p { 
       margin: 0 auto;
       text-align: justify;
       text-justify: auto;
@@ -23,14 +22,16 @@
   background: url('/images/warsaw-vistula.jpg');
   background-size: cover;
   background-position: center;
+  background-position-y: -17vh;
   color: white; 
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
   justify-content: start;
   width: 100vw;
+  height: 40vh; 
   p {
-    min-height: 0;
+    max-height: 20vh;
   }
   @media(max-width: $desktop-breakpoint) {
     min-height: 20%;
@@ -63,10 +64,11 @@
 }
 
 .component-box-2 {
-  background: $off-pink;  
-  color: $grey;
+  background: $grey;  
+  color: black;
   display: flex;
   flex-direction: column;
+  min-height: 70vh;
   h4 {
     margin: 0;
   }
@@ -77,7 +79,8 @@
   flex-direction: row;
 }
 .component-box-2-project {
-  background: $off-pink;
+  background: $grey;
+  min-height: 70vh;
 }
 .link-image {
   border-bottom: 1px solid $off-purple ;

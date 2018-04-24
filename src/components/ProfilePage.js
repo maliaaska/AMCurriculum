@@ -17,7 +17,7 @@ const ProfilePage = () => (
         </p>
       </div>
       </div>
-    <div className='component-box-2'>
+    <div className='component-box-2-project'>
       <h4>Contact details</h4>
       <div className="link-image">
         <a href="mailto:asmilewski@gmail.com" target='_blank'>
