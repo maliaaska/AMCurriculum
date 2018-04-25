@@ -10,10 +10,7 @@ export const Header = ({ startLogout }) => (
     <div className="header__content">
       <Link className="header__title" to="/homepage">
         <p>
-          Resume
-        </p>
-        <p>
-          Arkadiusz Milewski
+          Resume Arkadiusz Milewski
         </p>
       </Link> 
       <button className="button button--link" onClick={startLogout}>Logout</button>
