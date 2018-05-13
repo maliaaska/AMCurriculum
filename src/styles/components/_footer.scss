@@ -17,16 +17,18 @@ $defaultDuration: .3s;
 }
 
 .footer {
+
+  align-content: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  // margin-top: 10rem;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
   padding-top: 0;
   background-color: #efefef;
-  align-content: center;
   max-width: 150vw;
   
   &:hover {
@@ -50,11 +52,11 @@ $defaultDuration: .3s;
 }
 
 .tech-picture {
-  max-width: 10vw;
+  max-width: 1rem;
   max-height: 2.5rem;
   @media(min-width: $desktop-breakpoint) {
-    max-height: 5rem;
-    max-width: 7vw;
+    max-height: 2rem;
+    max-width: 3.5vw;
   }
 }
 

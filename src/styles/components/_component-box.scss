@@ -15,7 +15,7 @@
       text-justify: auto;
     }
   };
-  margin-top: 3.25rem;
+  // margin-top: 3.25rem;
  
 }
 
@@ -25,6 +25,7 @@
   background-size: cover;
   background-position: center;
   background-position-y: -17vh;
+  box-shadow: 0 4px 20px 3px black;
   color: white; 
   display: flex;
   flex-direction: column;
@@ -32,6 +33,7 @@
   justify-content: start;
   width: 100vw;
   height: 40vh; 
+  
   p {
     max-height: 20vh;
   }
@@ -67,10 +69,12 @@
 
 .component-box-2 {
   background: $grey;  
+  box-shadow: 0px -1px 10px 0px black;
   color: black;
   display: flex;
   flex-direction: column;
   min-height: 70vh;
+  max-height: 100%;
   h4 {
     margin: 0;
   }
@@ -79,10 +83,17 @@
 .component-box-2 div {
   display: flex;
   flex-direction: row;
+  flex: 1 1 auto;
+  max-height: 100%;
 }
 .component-box-2-project {
+
+  box-shadow: 0px -6px 20px 0px;
+  flex-direction: column;
   background: $grey;
   min-height: 70vh;
+  padding-bottom: 1rem;
+  
 }
 .link-image {
   border-bottom: 1px solid $off-purple ;

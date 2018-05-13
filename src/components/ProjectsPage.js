@@ -11,7 +11,7 @@ const ProjectsPage = (props) => (
         <p className='page-description'>These are my projects i have made. Do not hesitate to take a look and leave a comment!</p>
       </div>
     </div>
-    <div className='component-box-2-project'>
+    <div className='component-box-2-project first-project-box'>
       <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>

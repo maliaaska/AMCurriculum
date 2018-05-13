@@ -3,8 +3,6 @@ a {
   text-decoration: none !important;
   width: 100%;
   margin-top: $s-size;
-   
-  
 }
 
 .app-description {
@@ -28,12 +26,13 @@ a {
 }
 
 .project-box{
+  background: white;
   border: $off-purple solid 0.1rem;
   border-radius: 0.7rem;
   position: relative;
   color: $off-grey;
   font-weight: 400;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 5%;
   display: flex;
   &:hover {
@@ -41,7 +40,7 @@ a {
   }
   @media(min-width: $desktop-breakpoint) {
     width:60%;
-    background: white;
+    
   }
 }
 
@@ -62,6 +61,7 @@ a {
 }
 
 @keyframes wobble-horizontal {
+
 	16.65% {
 		transform: translateX(8px);
 	}
@@ -88,7 +88,7 @@ a {
 }
 
 .wobble-horizontal {
-	display: inline-block;
+  display: inline-block;
 
 	@include hideTapHighlightColor();
 	@include hardwareAccel();
