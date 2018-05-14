@@ -16,28 +16,31 @@ const ProfilePage = () => (
           Working as a freelancer and trying to enrich his service in Web Development industry.
         </p>
       </div>
-      </div>
-    <div className='component-box-2-project'>
-      <h4>Contact details</h4>
-      <div className="link-image">
-        <a href="mailto:asmilewski@gmail.com" target='_blank'>
-          <img src="/images/gmail.png" alt="Gmail_logo"/>
-          <span>asmilewski@gmail.com</span>
-        </a>
-      </div>
-      <div className="link-image">
-        <a href="https://www.linkedin.com/in/arkadiusz-milewski-48977155/" target='_blank'>
-          <img src="/images/linkedin.png" alt="linkedIn_logo"/>
-          <span>My LinkedIn profile</span>
-        </a>
-      </div>
-      <div className="link-image">
-        <a href="https://github.com/maliaaska" target='_blank'>
-          <img src="/images/github.png" alt="GitHub_logo"/>
-          <span>My GitHub profile</span>
-        </a>
+    </div>
+    <div className='component-box-2'>
+      <div className='box-contact'>
+        <h4>Contact details</h4>
+        <div className="link-image">
+          <a href="mailto:asmilewski@gmail.com" target='_blank'>
+            <img src="/images/gmail.png" alt="Gmail_logo"/>
+            <span>asmilewski@gmail.com</span>
+          </a>
+        </div>
+        <div className="link-image">
+          <a href="https://www.linkedin.com/in/arkadiusz-milewski-48977155/" target='_blank'>
+            <img src="/images/linkedin.png" alt="linkedIn_logo"/>
+            <span>My LinkedIn profile</span>
+          </a>
+        </div>
+        <div className="link-image">
+          <a href="https://github.com/maliaaska" target='_blank'>
+            <img src="/images/github.png" alt="GitHub_logo"/>
+            <span>My GitHub profile</span>
+          </a>
+        </div>
       </div>
     </div>
+    
   </div>
 );
 
