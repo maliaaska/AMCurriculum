@@ -1,0 +1,12 @@
+.explenation-box {
+  background: white;
+  border-radius: 5px;
+  color: $off-grey;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: 2rem;
+  @media(max-width: $desktop-breakpoint) {
+    font-size: 1.2rem;
+  }
+}
