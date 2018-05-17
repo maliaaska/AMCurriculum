@@ -1,130 +1,135 @@
-.component-box {
-  display: flex;
-  flex-direction: column;
-  font-size: font-size-x-small;
-  h2 {
+  .component-box {
     display: flex;
-    align-self: flex-start;
-    margin: 0 0 0 4vw;
-  }
-  min-height: 80%;
-  @media(min-width: $desktop-breakpoint) {
-    p { 
-      margin: 0 auto;
-      text-align: justify;
-      text-justify: auto;
+    flex-direction: column;
+    font-size: font-size-x-small;
+    h2 {
+      display: flex;
+      align-self: flex-start;
+      margin: 0 0 0 4vw;
     }
-  };
-  // margin-top: 3.25rem;
- 
-}
-
-
-.component-box-1 {
-  background: url('/images/warsaw-vistula.jpg');
-  background-size: cover;
-  background-position: center;
-  background-position-y: -17vh;
-  box-shadow: 0 4px 20px 3px black;
-  color: white; 
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  justify-content: start;
-  width: 100vw;
-  height: 40vh; 
+    min-height: 80%;
+    @media(min-width: $desktop-breakpoint) {
+      p { 
+        margin: 0 auto;
+        text-align: justify;
+        text-justify: auto;
+      }
+    };
+    // margin-top: 3.25rem;
   
-  p {
-    max-height: 20vh;
   }
-  @media(max-width: $desktop-breakpoint) {
-    min-height: 20%;
-    max-height: 50%;
+
+
+  .component-box-1 {
+    background: url('/images/warsaw-vistula.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y: -17vh;
+    box-shadow: 0 4px 20px 3px black;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: start;
+    width: 100vw;
+    height: 40vh; 
+    
     p {
-      margin: 0 auto;
-      max-width: 90%;
-      text-align: justify;
-      
+      max-height: 20vh;
     }
-  };
-  
-}
-.link {
-  p {
-    text-align: justify;
+    @media(max-width: $desktop-breakpoint) {
+      min-height: 20%;
+      max-height: 50%;
+      p {
+        margin: 0 auto;
+        max-width: 90%;
+        text-align: justify;
+        
+      }
+    };
+    
   }
-  
-}
-
-.component-box-1-a {
-  h3 {
-    margin: 0;
+  .link {
+    p {
+      text-align: justify;
+    }
+    
   }
-  p {
-    font-size: $font-size-small;
-    margin: 0;
+
+  .component-box-1-a {
+    h3 {
+      margin: 0;
+    }
+    p {
+      font-size: $font-size-small;
+      margin: 0;
+    }
+    padding: 0 10%;
   }
-  padding: 0 10%;
-}
 
-.component-box-2 {
-  background: $grey;  
-  box-shadow: 0px -1px 10px 0px black;
-  color: black;
-  display: flex;
-  flex-direction: row;
-  min-height: 70vh;
-  max-height: 100%;
-  h4 {
-    margin: 0;
+  .component-box-2 {
+    background: $light-grey;
+    padding: $grey;
+    box-shadow: 0px -1px 10px 0px black;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    max-height: 100%;
+    h4 {
+      margin: 0;
+    }
+    padding: 0 15% 0;
   }
-  padding: 10% 15%;
-}
-.component-box-2 div {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  max-height: 100%;
-}
-.component-box-2-project{
+  .component-box-2 div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-height: 100%;
+    
+  }
+  .component-box-2-project{
 
-  box-shadow: 0px -6px 20px 0px;
-  flex-direction: column;
-  background: $grey;
-  min-height: 70vh;
-  padding-bottom: 1rem;
-  
-}
-.box-contact {
-  flex-direction: column;
-  background: $grey;
-  min-height: 70vh;
-  padding-bottom: 1rem;
-  min-height: 70vh;
-  max-height: 100%;
-}
-.link-image {
-  border-bottom: 1px solid $off-purple ;
-  margin-top: 2vh;
-  padding: 1rem 0 0 0;
-  max-width: 100%;
-  max-height: 1rem;
-}
-.link-image a {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  text-decoration: none !important;
-}
+    box-shadow: 0px -6px 20px 0px;
+    flex-direction: column;
+    background: $grey;
+    min-height: 70vh;
+    padding-bottom: 1rem;
+    
+  }
+  .box-contact {
+    flex-direction: column;
+    background: $light-grey;
+    border-radius: 5px;
+    height:30rem;
+    margin: 1rem;
+    max-height: 100%;
+    padding: 2rem 0.7rem 1rem;
+  }
+  .link-image { 
+    border-bottom: 1px solid $off-purple ;
+    border-radius: 5px;
+    background: white;
+    margin-top: 2vh;
+    margin-bottom: 1rem;
+    padding: 0 0 0 1rem;
+    max-width: 100%;
+  }
+  .link-image a {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    text-decoration: none !important;
+  }
 
-.link-image img {
-  height: 7%;
-  width: 12%;
-}
-.component-box-2 span {
-  color: black;
-  padding-left: 2.8rem;
-  display: flex;
-  align-items: flex-end;
-  text-decoration: none !important;
-}
+  .link-image img {
+    height: 7%;
+    width: 12%;
+  }
+  .component-box-2 span {
+    color: black;
+    padding-left: 1.4rem;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none !important;
+  }

@@ -19,7 +19,7 @@ const HomePage = () => (
       </div>
     </div>
     <div className='component-box-2'>
-      <div className='component-box-2-project'>
+      <div className='component-box-2'>
         <p>This is box 2</p>
       </div>
     </div>

@@ -9,7 +9,7 @@
   }
 }
 
-.description-box h2 {
+.description-box h3  {
   margin: 0;
 }
 
@@ -21,4 +21,7 @@
 
 .page-description {
   width: 100%;
+  @media(max-width: $desktop-breakpoint) {
+    font-size: 1.2rem;
+  }
 }
