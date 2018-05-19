@@ -49,7 +49,18 @@ $defaultDuration: .3s;
 
 	&:hover {
 		transform: scale(1.5);
-	}
+  }
+  border: none;
+  color: white;  
+  
+  font-weight: 700;
+  line-height: 1;
+  font-size: $font-size-small;
+  padding: $s-size;
+  text-decoration: none;  
+  @media(min-width: $desktop-breakpoint) {
+      font-size: $font-size-large;
+  } 
 }
 
 .tech-picture {
