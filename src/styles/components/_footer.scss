@@ -38,7 +38,8 @@ $defaultDuration: .3s;
 }
 
 .grow {
-	display: inline-block;
+  display: inline-block;
+  margin: 0;
 	transition-duration: $defaultDuration;
 	transition-property: transform;
 
@@ -55,8 +56,8 @@ $defaultDuration: .3s;
   max-width: 1rem;
   max-height: 2.5rem;
   @media(min-width: $desktop-breakpoint) {
-    max-height: 2rem;
-    max-width: 3.5vw;
+    max-height: 1.5rem;
+    max-width: 2.5vw;
   }
 }
 
