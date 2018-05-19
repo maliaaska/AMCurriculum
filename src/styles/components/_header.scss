@@ -8,14 +8,17 @@
  
 }
 .header__content {
-  align-items: center;
+  
   display: flex;
   justify-content: space-between;
   padding: $s-size 0;
 }
 .header__title {
+  display: flex;
   color: white;
+  flex-direction: row;
   text-decoration: none;
+  margin: 1rem;
   p {
     margin: 0;
     font-size: $font-size-small;
@@ -25,4 +28,12 @@
         font-size: $font-size-large;
       }
   }
+}
+.header__title img {
+  margin-right: 2rem;
+}
+
+.logo {
+  max-width: 3rem;
+  max-height: 3rem;
 }
