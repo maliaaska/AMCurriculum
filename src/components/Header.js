@@ -9,7 +9,9 @@ export const Header = ({ startLogout }) => (
   <div className="content-container">
     <div className="header__content">
       <Link className="header__title" to="/homepage">
-      <img src="images/favicon.png" alt="logo" className="logo"/> 
+      
+        <img src="/images/favicon.png" alt="logo" className="logo"/>
+      
         <p>
           Resume Arkadiusz Milewski
         </p>
