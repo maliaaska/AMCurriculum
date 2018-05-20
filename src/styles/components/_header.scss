@@ -1,6 +1,8 @@
 
 .header {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   background: $dark-blue;
   font-weight: 700;
   overflow: hidden;
@@ -8,7 +10,8 @@
  
 }
 .header__content {
-  
+  width: 50%;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   padding: $s-size 0;

@@ -6,23 +6,19 @@ import { startLogout } from '../actions/auth';
 
 export const Header = ({ startLogout }) => (
   <header className="header">
-  <div className="content-container">
     <div className="header__content">
       <Link className="header__title" to="/homepage">
-      
         <img src="/images/favicon.png" alt="logo" className="logo"/>
-      
         <p>
           Resume Arkadiusz Milewski
         </p>
       </Link> 
       <button className="button button--link" onClick={startLogout}>Logout</button>
     </div>
-  </div>
   </header>
 );
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = (dispatch) => ({ 
   startLogout: () => dispatch(startLogout())
 });
 
