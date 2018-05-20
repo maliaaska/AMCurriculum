@@ -15,6 +15,9 @@
 .button--link {
   background: none;
   padding-right: 0;
+  @media(max-width: $desktop-breakpoint) {
+    padding-right: 2.2rem;
+  }
 }
 
 .button--secondary {

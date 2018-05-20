@@ -8,7 +8,7 @@ const ProjectsPage = (props) => (
     <div className='component-box-1'>
       <TabsComponent />
       <div className='description-box'>
-        <p className='page-description'>These are my projects i have made. Do not hesitate to take a look and leave a comment!</p>
+        <p className='page-description'>These are my projects i have made. Do not hesitate to take a look and play around!</p>
       </div>
     </div>
     <div className='component-box-2-project first-project-box'>

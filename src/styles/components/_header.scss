@@ -7,14 +7,22 @@
   font-weight: 700;
   overflow: hidden;
   box-shadow: 0 0 10rem gray;
- 
-}
+ }
 .header__content {
   width: 50%;
   margin: 0;
   display: flex;
   justify-content: space-between;
   padding: $s-size 0;
+  @media(max-width: $desktop-breakpoint) {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+.header__content a {
+  @media(max-width: $desktop-breakpoint) {
+    margin: 0;
+  }
 }
 .header__title {
   display: flex;
@@ -30,6 +38,9 @@
       p {
         font-size: $font-size-large;
       }
+  }
+  @media(max-width: $desktop-breakpoint) {
+    max-width: 65vw;
   }
 }
 .header__title img {
