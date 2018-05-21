@@ -10,7 +10,7 @@ const ProfilePage = () => (
         <p className='page-description'>
           Arkadiusz Szymon Milewski and was born 12 of May 1990 Warsaw, Poland.
           Currently lives in Amsterdam, The Netherlands.
-          Born Traveller and Sportsman, since 2017 pssionated about programming.
+          Born Traveller and Sportsman, since second half of 2016 pssionated about programming.
           Did a course of Web Development Jun-August 2017 in Barcelona.
           Speaks fluent Polish, English, Spanish.
           Working as a freelancer and trying to enrich his service in Web Development industry.
