@@ -6,14 +6,20 @@ a {
 }
 
 .app-description {
+  text-justify: distribute;
   flex-direction: column;
   max-width: 60vw;
-  h5 {
+  h4 {
     margin: 0;  
   }
   p {
     margin: 0;
-    font-size: $font-size-x-small;
+    font-size: $font-size-small;
+    text-justify: distribute;
+    @media(min-width: $desktop-breakpoint) {
+      font-size: $font-size-medium;
+    }
+
   }
 }
 .app-picture {
