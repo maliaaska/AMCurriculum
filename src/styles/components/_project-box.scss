@@ -15,7 +15,7 @@ a {
   p {
     margin: 0;
     font-size: $font-size-small;
-    text-justify: distribute;
+    text-align: justify;
     @media(min-width: $desktop-breakpoint) {
       font-size: $font-size-medium;
     }
@@ -26,6 +26,7 @@ a {
     display: flex;
     align-items: center;
     height: $picture-size-small;
+    margin: 3rem 0 0 1rem;
     min-height: 10vh;
     min-width: 10vw;
     width: $picture-size-small;
