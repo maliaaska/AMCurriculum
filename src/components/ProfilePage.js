@@ -13,7 +13,7 @@ const ProfilePage = () => (
           Born Traveller and Sportsman, since second half of 2016 pssionated about programming.
           Did a course of Web Development Jun-August 2017 in Barcelona.
           Speaks fluent Polish, English, Spanish.
-          Working as a freelancer and trying to enrich his service in Web Development industry.
+          Currently self-emlpyed, trying to enrich his service in Web Development industry.
         </p>
       </div>
     </div>

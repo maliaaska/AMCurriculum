@@ -23,10 +23,10 @@ const HomePage = () => (
         <h3>IMPORTANT!!!</h3>  
         <p>
             You are enjoying version BETA of the ASResume.
-          in the near future I will be working more and more on my websites,
+          in the near future I will be working more and more on the website,
           implementing new feature and projects.
 
-          The reasons why I have not waited until I have funal version:
+          The reasons why I have not waited until I have final version:
           <br></br>
           <br></br>
           1. They say the website is never done.
@@ -35,7 +35,7 @@ const HomePage = () => (
              What was demotivating me. 
           <br></br>
           3. Realized that I have a lot of ideas and it is just imposible to do 
-             all things at once so I decided that it is going to be better if I start sharing my results
+             all things at once so I decided it is going to be better if I start sharing my results
              even though the AMResume is not done yet.
         </p>
         <h3>ENJOY!!!</h3>
