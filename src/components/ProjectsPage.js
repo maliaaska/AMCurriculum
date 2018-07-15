@@ -12,21 +12,21 @@ const ProjectsPage = () => (
       </div>
     </div>
     <div className='component-box-2-project first-project-box'>
-    <Link to='/homepage/think-twice'>
-      <div className='project-box'>
-        <div className='app-description'>
-          <h3>ThinkTwiceApp</h3>
-          <p>
-            ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
-            App allows you to Log in with you Gmail what creates your individual, unique account.
-          </p>
-        </div>
-        <div className='app-picture'>
-          <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
-        </div>
-      </div>  
-    </Link>
-      <a href="https://indecision-app-mil.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
+      <Link to='/homepage/think-twice' target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
+        <div className='project-box'>
+          <div className='app-description'>
+            <h3>ThinkTwiceApp</h3>
+            <p>
+              ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
+              App allows you to Log in with you Gmail what creates your individual, unique account.
+            </p>
+          </div>
+          <div className='app-picture'>
+            <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
+          </div>
+        </div>  
+      </Link>
+      <Link to="/homepage/indecision-app" target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>
             <h3>IndecisionApp</h3>           
@@ -39,8 +39,8 @@ const ProjectsPage = () => (
             <img src="/images/light.png" alt="IndecisionAppImage"/>
           </div>          
         </div>
-      </a>
-      <a href="https://cat-poster-store.herokuapp.com/" target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
+      </Link>
+      <Link to="/homepage/cat-poster-store" target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>
             <h3>Cat Poster Store</h3>           
@@ -52,7 +52,7 @@ const ProjectsPage = () => (
             <img src="/images/cat.jpg" alt="Cat Poster Store"/>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   </div>
 );
