@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom'
 import TabsComponent from './TabsComponent';
 
 
@@ -12,20 +12,20 @@ const ProjectsPage = () => (
       </div>
     </div>
     <div className='component-box-2-project first-project-box'>
-      <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
-        <div className='project-box'>
-          <div className='app-description'>
-            <h3>ThinkTwiceApp</h3>
-            <p>
-              ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
-              App allows you to Log in with you Gmail what creates your individual, unique account.
-            </p>
-          </div>
-          <div className='app-picture'>
-            <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
-          </div>
-        </div>  
-      </a>
+    <Link to='/homepage/think-twice'>
+      <div className='project-box'>
+        <div className='app-description'>
+          <h3>ThinkTwiceApp</h3>
+          <p>
+            ThinkTwiceApp has been built with React. It is an app what helps you track you all you expenses you have made. 
+            App allows you to Log in with you Gmail what creates your individual, unique account.
+          </p>
+        </div>
+        <div className='app-picture'>
+          <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
+        </div>
+      </div>  
+    </Link>
       <a href="https://indecision-app-mil.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
         <div className='project-box'>
           <div className='app-description'>

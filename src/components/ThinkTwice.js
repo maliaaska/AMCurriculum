@@ -8,9 +8,12 @@ const ThinkTwice = () => (
       <TabsComponent />
     </div>
     <div className='component-box-2-project first-project-box'>
+      This is from the Think twice component
     </div>
   </div>
 );
 
 export default ThinkTwice;
 
+// <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="wobble-horizontal">
+// </a>
