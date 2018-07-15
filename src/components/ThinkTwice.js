@@ -11,6 +11,6 @@ const ThinkTwice = () => (
     </div>
   </div>
 );
-console.log('Chuj Ci w ryj');
+
 export default ThinkTwice;
 

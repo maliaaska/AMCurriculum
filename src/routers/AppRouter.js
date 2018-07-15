@@ -9,8 +9,8 @@ import PublicRoute from './PublicRoute';
 import ProjectsPage from '../components/ProjectsPage';
 import ProfilePage from '../components/ProfilePage';
 import ThinkTwice from '../components/ThinkTwice';
-// import ProfilePage from '../components/ProfilePage';
-// import ProfilePage from '../components/ProfilePage';
+import CatPosterStore from '../components/CatPosterStore';
+import IndecisionApp from '../components/IndecisionApp';
 
 export const history = createHistory();  
 
@@ -23,6 +23,8 @@ const AppRouter = () => (
       <PrivateRoute path="/homepage/profile-page" component={ProfilePage}  />
       <PrivateRoute path="/homepage/projects-page" component={ProjectsPage}  />
       <PrivateRoute path="/homepage/think-twice" component={ThinkTwice} />
+      <PrivateRoute path="/homepage/cat-poster-store" component={CatPosterStore} />
+      <PrivateRoute path="/homepage/indecision-app" component={IndecisionApp} />
       <Route component={NotFoundPage} />
     </Switch>
   </div>
