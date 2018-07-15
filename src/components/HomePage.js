@@ -1,6 +1,5 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
-import Footer from './Footer';
 
 
 const HomePage = () => (

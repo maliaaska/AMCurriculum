@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import TabsComponent from './TabsComponent';
-import Footer from './Footer';
 
-const ProjectsPage = (props) => (
+import TabsComponent from './TabsComponent';
+
+
+const ProjectsPage = () => (
   <div className="component-box">
     <div className='component-box-1'>
       <TabsComponent />
