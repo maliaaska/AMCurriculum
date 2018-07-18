@@ -8,7 +8,10 @@ const ThinkTwice = () => (
       <TabsComponent />
     </div>
     <div className='component-box-2-project first-project-box'>
-      This is from the Think twice component
+      This is from the Think twice component!
+      <div className='app-picture'>
+        <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
+      </div>
     </div>
   </div>
 );
