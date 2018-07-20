@@ -1,6 +1,5 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
-
 const ThinkTwice = () => (
   
   <div className="component-box">

@@ -1,6 +1,7 @@
 import React from 'react';
 import {Router, Route, Switch, Link, NavLink } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
+import CatPosterStore from '../components/CatPosterStore';
 import HomePage from "../components/HomePage";
 import NotFoundPage from "../components/NotFoundPage";
 import LoginPage  from '../components/LoginPage';
@@ -9,8 +10,8 @@ import PublicRoute from './PublicRoute';
 import ProjectsPage from '../components/ProjectsPage';
 import ProfilePage from '../components/ProfilePage';
 import ThinkTwice from '../components/ThinkTwice';
-import CatPosterStore from '../components/CatPosterStore';
 import IndecisionApp from '../components/IndecisionApp';
+
 
 export const history = createHistory();  
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
-
 const IndecisionApp = () => (
   
   <div className="component-box">
@@ -11,7 +10,7 @@ const IndecisionApp = () => (
       This is from the IndecisionApp component!
       <div className='app-picture'>
         <img src="/images/light.png" alt="IndecisionAppImage"/>
-      </div>  
+      </div> 
     </div>
   </div>
 );
