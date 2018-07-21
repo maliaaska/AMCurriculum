@@ -7,6 +7,8 @@ const CatPosterComment = () => {
   const input = document.getElementById('input');
   const liValue = document.getElementById('input').value;
   li.appendChild(document.createTextNode(liValue));
+  ul.style.listStyle = 'none';
+  console.log('should be none')
   input.value = '';
   ul.appendChild(li);
 }
