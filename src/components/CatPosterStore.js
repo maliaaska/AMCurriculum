@@ -1,17 +1,7 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
+import { CatPosterComment } from '../actions/addComment';
 
-const CatPosterComment = () => {
-  const ul = document.getElementById('ul-cat');
-  let li = document.createElement('LI');
-  const input = document.getElementById('input');
-  const liValue = document.getElementById('input').value;
-  li.appendChild(document.createTextNode(liValue));
-  ul.style.listStyle = 'none';
-  console.log('should be none')
-  input.value = '';
-  ul.appendChild(li);
-}
 
 const CatPosterStore = () => (
   <div className="component-box">

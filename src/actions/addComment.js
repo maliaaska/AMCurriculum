@@ -2,15 +2,14 @@
 
 
 
-
 export const CatPosterComment = () => {
-  const ul = document.getElementById('ul-cat');
-  const li = document.createElement('LI');
-  const liValue = document.getElementById('input').value;
+  let ul = document.getElementById('ul-cat');
+  let li = document.createElement('LI');
+  let input = document.getElementById('input');
+  let liValue = document.getElementById('input').value;
   li.appendChild(document.createTextNode(liValue));
-  const input = document.getElementById('input');
+  ul.style.listStyle = 'none';
   input.value = '';
-  ul.appendChild(li)
+  ul.appendChild(li);
 }
-  
    
