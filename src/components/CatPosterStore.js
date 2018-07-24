@@ -1,9 +1,10 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
+import { removeItemButton } from '../actions/addComment';
 import { CatPosterComment } from '../actions/addComment';
 
 
-const CatPosterStore = () => (
+const CatPosterStore = () => (  
   <div className="component-box">
     <div className='component-box-1'>
       <TabsComponent />
