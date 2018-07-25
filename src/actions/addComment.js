@@ -9,19 +9,12 @@ export const addComment = () => {
   console.log(lis);
 
   function attachListItemButtons(li) {
-    if(addItemInput.value !== '' ) {
-      let remove = document.createElement('button');
-      remove.className = 'remove';
-      remove.textContent = 'remove';
-      li.appendChild(remove);
-    }
-    // for ( let i = 0; i < lis.length; i += 1) {
-    //   attachListItemBottons(lis[i]);
-    // }
-    }
+    let remove = document.createElement('button');
+    remove.className = 'remove';
+    remove.textContent = 'remove';
+    li.appendChild(remove);
+  }
     
-  
-  
   listUl.addEventListener('click', (event) => {
     if (event.target.tagName == 'BUTTON') {
       if(event.target.className == 'remove') {
@@ -32,7 +25,6 @@ export const addComment = () => {
     }
   });
 
-
     let ul = document.getElementsByTagName('ul')[0];
     let li = document.createElement('li');
     li.textContent = addItemInput.value;
@@ -40,5 +32,4 @@ export const addComment = () => {
     ul.appendChild(li);
     ul.style.listStyle = 'none';
     addItemInput.value = '';
-
  }

@@ -1,7 +1,8 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
+import { addComment } from '../actions/addComment';
+
 const ThinkTwice = () => (
-  
   <div className="component-box">
     <div className='component-box-1'>
       <TabsComponent />
@@ -10,6 +11,12 @@ const ThinkTwice = () => (
       This is from the Think twice component!
       <div className='app-picture'>
         <img src="/images/money.png" alt="ThinkTwiceImg" id='think-twice-icon'/>
+      </div>
+      <div className='list'>
+        <ul>
+        </ul>
+        <input type="text" className='addItemInput'></input>
+        <button className='addItemButton' onClick= { addComment } >Add Comment</button>
       </div>
     </div>
   </div>

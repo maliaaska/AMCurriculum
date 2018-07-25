@@ -1,7 +1,7 @@
 import React from 'react';
 import TabsComponent from './TabsComponent';
+import { addComment } from '../actions/addComment';
 const IndecisionApp = () => (
-  
   <div className="component-box">
     <div className='component-box-1'>
       <TabsComponent />
@@ -11,6 +11,12 @@ const IndecisionApp = () => (
       <div className='app-picture'>
         <img src="/images/light.png" alt="IndecisionAppImage"/>
       </div> 
+      <div className='list'>
+        <ul>
+        </ul>
+        <input type="text" className='addItemInput'></input>
+        <button className='addItemButton' onClick= { addComment } >Add Comment</button>
+      </div>
     </div>
   </div>
 );
