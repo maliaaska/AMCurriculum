@@ -1,34 +1,44 @@
 
-
- const removeItemButton = () => {
-   return () => {
-    console.log('its working removeItemButton');
-    let ul = document.getElementById('ul-cat');
-    let removeItemButton = document.createElement('BUTTON');
-    let buttonText = document.createTextNode('Remove Comment');
-    removeItemButton.appendChild(buttonText);
-    ul.appendChild(removeItemButton);
-   }
-  
-}
-const consoleLog = () => {
-  console.log("consoleLog function works");
-}
-
-
    
- export const CatPosterComment = () => {
-  let ul = document.getElementById('ul-cat');
-  let li = document.createElement('LI');
-  let input = document.getElementById('input');
-  let liValue = document.getElementById('input').value;
-  let removeItemButton = document.createElement('BUTTON');
-  let buttonText = document.createTextNode('Remove Comment');
+export const addComment = () => {
+  
+  const listDiv = document.querySelector('.list');
+  const listUl = listDiv.querySelector('ul');
+  const addItemInput = document.querySelector('input.addItemInput');
+  const lis = listUl.children;
+  console.log(lis);
 
-  li.appendChild(document.createTextNode(liValue));
-  ul.style.listStyle = 'none';
-  input.value = '';
-  ul.appendChild(li);
-  removeItemButton.appendChild(buttonText);
-  ul.appendChild(removeItemButton);
-}
+  function attachListItemButtons(li) {
+    if(addItemInput.value !== '' ) {
+      let remove = document.createElement('button');
+      remove.className = 'remove';
+      remove.textContent = 'remove';
+      li.appendChild(remove);
+    }
+    // for ( let i = 0; i < lis.length; i += 1) {
+    //   attachListItemBottons(lis[i]);
+    // }
+    }
+    
+  
+  
+  listUl.addEventListener('click', (event) => {
+    if (event.target.tagName == 'BUTTON') {
+      if(event.target.className == 'remove') {
+        let li = event.target.parentNode;
+        let ul = li.parentNode;
+        ul.removeChild(li);
+      } 
+    }
+  });
+
+
+    let ul = document.getElementsByTagName('ul')[0];
+    let li = document.createElement('li');
+    li.textContent = addItemInput.value;
+    attachListItemButtons(li)
+    ul.appendChild(li);
+    ul.style.listStyle = 'none';
+    addItemInput.value = '';
+
+ }
