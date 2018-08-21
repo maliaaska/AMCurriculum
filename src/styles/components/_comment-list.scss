@@ -8,11 +8,17 @@
   }
   button {
     width: 100%;
-    background-color: #046ec8;
+    background-color: #6B91C4;
     color: white;
     font-weight: 500;
     font-family: fantasy;
     border-style: none;
     border-radius: 5px;
+  }
+  @media(min-width: $desktop-breakpoint) {
+    width:50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+
   }
 }

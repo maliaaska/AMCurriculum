@@ -1,0 +1,14 @@
+.app-ul {
+  
+  @media(min-width: $desktop-breakpoint) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 30%; 
+    li {
+      display: flex;
+    }
+  }
+  
+}

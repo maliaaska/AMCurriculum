@@ -7,13 +7,6 @@ export const addComment = () => {
   const addItemInput = document.querySelector('input.addItemInput');
   const lis = listUl.children;
   console.log(lis);
-
-  function attachListItemButtons(li) {
-    let remove = document.createElement('button');
-    remove.className = 'remove';
-    remove.textContent = 'remove';
-    li.appendChild(remove);
-  }
     
   listUl.addEventListener('click', (event) => {
     if (event.target.tagName == 'BUTTON') {
@@ -24,7 +17,13 @@ export const addComment = () => {
       } 
     }
   });
-
+  function attachListItemButtons(li) {
+    let remove = document.createElement('button');
+    remove.className = 'remove';
+    remove.textContent = 'remove';
+    li.appendChild(remove);
+  }
+  
     let ul = document.getElementsByTagName('ul')[0];
     let li = document.createElement('li');
     li.textContent = addItemInput.value;
@@ -32,4 +31,6 @@ export const addComment = () => {
     ul.appendChild(li);
     ul.style.listStyle = 'none';
     addItemInput.value = '';
+
+   
  }

@@ -20,11 +20,10 @@ const ThinkTwice = () => (
           </div>
         </a>
         <div className='list'>
-          <ul>
+          <ul className='app-ul'>
           </ul>
             <input type="text" className='addItemInput'></input>
             <button className='addItemButton' onClick= { addComment } >Add Comment</button>
-          <div id='content'></div>
         </div>
       </div>
     </div>
