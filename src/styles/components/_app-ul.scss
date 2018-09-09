@@ -1,5 +1,6 @@
 .app-ul {
-  
+  display: flex;
+  flex-direction: column;
   @media(min-width: $desktop-breakpoint) {
     width: 100%;
     display: flex;

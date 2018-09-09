@@ -17,16 +17,25 @@ export const addComment = () => {
       } 
     }
   });
+  // function attachListItemButtons(li) {
+  //   let remove = document.createElement('button');
+  //   remove.className = 'remove';
+  //   remove.textContent = 'remove';
+  //   li.appendChild(remove);
+  // }
+
   function attachListItemButtons(li) {
     let remove = document.createElement('button');
     remove.className = 'remove';
     remove.textContent = 'remove';
     li.appendChild(remove);
   }
-  
+
     let ul = document.getElementsByTagName('ul')[0];
     let li = document.createElement('li');
-    li.textContent = addItemInput.value;
+    let p = document.createElement('p');
+    li.appendChild(p);
+    p.innerHTML = addItemInput.value;
     attachListItemButtons(li)
     ul.appendChild(li);
     ul.style.listStyle = 'none';
