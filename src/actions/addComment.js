@@ -33,6 +33,7 @@ export const addComment = () => {
 
     let ul = document.getElementsByTagName('ul')[0];
     let li = document.createElement('li');
+    // li.setAttribute('class', 'comment-list');
     let p = document.createElement('p');
     li.appendChild(p);
     p.innerHTML = addItemInput.value;
