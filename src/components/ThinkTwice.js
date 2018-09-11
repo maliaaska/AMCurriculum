@@ -24,6 +24,7 @@ const ThinkTwice = () => (
           </ul>
             <input type="text" className='input'></input>
             <button className='addItemButton' onClick= { addComment } >Add Comment</button>
+            <p className='warning'></p>
         </div>
       </div>
     </div>
