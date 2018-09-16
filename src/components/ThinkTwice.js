@@ -11,7 +11,7 @@ const ThinkTwice = () => (
       <div className='app-container'>
         <div>
           <p>
-            This is from the Think twice component!
+            ThinkTwice!!!!!!!!!!
           </p>
         </div>
         <a href="https://react-thinktwiceapp.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="app-anchor">
@@ -22,9 +22,9 @@ const ThinkTwice = () => (
         <div className='list'>
           <ul className='app-ul'>
           </ul>
-            <input type="text" className='input'></input>
-            <button className='addItemButton' onClick= { addComment } >Add Comment</button>
-            <p className='warning'></p>
+          <input type="text" className='input'></input>
+          <button className='addItemButton' onClick= { addComment } >Add Comment</button>
+          <p className='warning'></p>
         </div>
       </div>
     </div>

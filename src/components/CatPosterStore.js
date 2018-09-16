@@ -9,17 +9,24 @@ const CatPosterStore = () => (
       <TabsComponent />
     </div>
     <div className='component-box-2-project first-project-box'>
-      This is from the Cat poster Store
-      <a href="https://cat-poster-store.herokuapp.com/" target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
-        <div className='app-picture'>
-         <img src="/images/cat.jpg" alt="Cat Poster Store"/>
+      <div className='app-container'>
+        <div>
+          <p>
+            Cat poster Store!!!!
+          </p>
         </div>
-      </a>
-      <div className='list'>
-        <ul>
-        </ul>
-        <input type="text" className='addItemInput'></input>
-        <button className='addItemButton' onClick= { addComment } >Add Comment</button>
+        <a href="https://cat-poster-store.herokuapp.com/" target='_blank' rel="wobble-horizontal" className="app-anchor">
+          <div className='app-picture'>
+            <img src="/images/cat.jpg" alt="cat-poster-store"/>
+          </div>
+        </a>
+        <div className='list'>
+          <ul className='app-ul'>
+          </ul>
+          <input type="text" className='input'></input>
+          <button className='addItemButton' onClick= { addComment } >Add Comment</button>
+          <p className='warning'></p>
+        </div>
       </div>
     </div>
   </div>
@@ -27,3 +34,8 @@ const CatPosterStore = () => (
 
 export default CatPosterStore;
 
+// <a href="https://cat-poster-store.herokuapp.com/" target="_blank" rel="wobble-horizontal" className="wobble-horizontal">
+//         <div className='app-picture'>
+//          <img src="/images/cat.jpg" alt="Cat Poster Store"/>
+//         </div>
+//       </a>
