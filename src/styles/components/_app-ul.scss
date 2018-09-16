@@ -13,10 +13,14 @@
       margin-bottom: 0.5rem;
       
       p {
-        border: 1px solid black;
+        border: 1px solid #DB9726;
+        border-radius: 3px;
         font-family: 'Courier New', Courier, monospace;
+        margin-left: 0;
         padding-right: 3rem;
-        width: 70%;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        width: 60%;
         word-break: break-all;
       }
       button {
